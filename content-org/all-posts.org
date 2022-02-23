@@ -1,0 +1,7 @@
+#+hugo_base_dir: ../
+
+* DONE Welcom to Aureum Medium                               :welcome:@about:
+:PROPERTIES:
+:EXPORT_FILE_NAME: welcome
+:END:
+This is my post body

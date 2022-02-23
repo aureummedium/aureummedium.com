@@ -1,0 +1,34 @@
+baseURL = 'http://aureummedium.com/'
+languageCode = 'en-us'
+title = 'Aureum Medium'
+
+[module]
+  [[module.imports]]
+    path = "github.com/adityatelange/hugo-PaperMod"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  defaultTheme = 'light'
+  disableThemeToggle = true
+
+[params.homeInfoParams]
+Title = "Aureum Medium LLC"
+Content = "Software engineering consultancy"
+
+[[params.socialIcons]]
+name = 'github'
+url = 'https://github.com/reedlaw'
+
+[[params.socialIcons]]
+name = 'stackoverflow'
+url = 'https://stackoverflow.com/users/439332/reed-g-law'
+
+[[params.socialIcons]]
+name = 'ycombinator'
+url = 'https://news.ycombinator.com/user?id=reedlaw'
+
+[[params.socialIcons]]
+name = 'linkedin'
+url = 'https://www.linkedin.com/in/reedglaw/'
