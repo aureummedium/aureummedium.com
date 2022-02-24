@@ -12,7 +12,7 @@ theme = "PaperMod"
 
 [params.homeInfoParams]
 Title = "aureum medium (Latin)"
-Content = "<b>golden mean</b><br/><br/>Software engineering consultancy of Reed G. Law"
+Content = "<b>golden mean</b><br/><br/>The software engineering consultancy of Reed G. Law"
 
 [[params.socialIcons]]
 name = 'github'
