@@ -1,6 +1,6 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = 'Aureum Medium'
+title = 'Aureum Medium LLC'
 theme = "PaperMod"
 
 [markup.goldmark.renderer]
@@ -11,12 +11,12 @@ theme = "PaperMod"
   disableThemeToggle = true
 
 [params.homeInfoParams]
-Title = "Aureum Medium LLC"
-Content = "Software engineering consultancy"
+Title = "aureum medium (Latin)"
+Content = "<b>golden mean</b><br/><br/>Software engineering consultancy of Reed G. Law"
 
 [[params.socialIcons]]
 name = 'github'
-url = 'https://github.com/reedlaw'
+url = 'https://github.com/aureummedium'
 
 [[params.socialIcons]]
 name = 'stackoverflow'
