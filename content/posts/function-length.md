@@ -1,0 +1,14 @@
++++
+title = "Function Length"
+draft = false
++++
+
+How long should a function be? As with many style considerations in software development, there are conflicting opinions. Some argue that functions should be allowed to grow while others believe functions should be extracted until no conceptual overhead remains. [John Carmack](http://number-none.com/blow/blog/programming/2014/09/26/carmack-on-inlined-code.html) and [Steve McConnell](https://www.goodreads.com/quotes/9681105-from-time-to-time-a-complex-algorithm-will-lead-to) represent the first camp while [Martin Fowler](https://martinfowler.com/bliki/FunctionLength.html) and [Robert C. Martin](https://www.goodreads.com/quotes/7630396-the-first-rule-of-functions-is-that-they-should-be) belong to the latter.
+
+John Carmack's argument for inlining is pragmatic and related to the kinds of programming he does (games and flight software). The real danger is lack of awareness of complex state changes. Long functions are a lesser evil because they keep more state local. The better option is functional programming. Like Carmack, Steve McConnell's argument is based on other factors such as cohesion and complexity. He suggests an upper limit of 200 lines. He does not provide guidelines for what should be extracted to keep functions under that limit.
+
+Martin Fowler advocates separating intention and implementation. In other words, if the intention of a fragment of code is not obvious, it should be extracted into a function and named after its purpose. Robert C. Martin goes a step further and [suggests extacting until nothing more can be extracted](https://sites.google.com/site/unclebobconsultingllc/one-thing-extract-till-you-drop). Functions should do only one thing and if something can be extracted they don't do only one thing.
+
+Both sides present legitimate concerns and have settled on reasonable trade-offs. Long functions expose details while hiding intention. Short functions hide details while exposing intention. Which side to choose depends on the project, team, organization, and so on.
+
+Since programming style cannot be universally agreed upon it is better to adopt a style for a particular project rather than arguing over what style is best. For an existing code base the style should be the most widely used, unless consensus dictates otherwise. For a new project a style to imitate should be chosen whether from a style guide or an existing body of work. Consistency trumps other considerations because it communicates most clearly. There is no need for a new developer to read an entire code base to see that functions are short on average. Comments on individual functions are easy to miss.
