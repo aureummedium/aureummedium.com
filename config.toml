@@ -15,6 +15,10 @@ Title = "aureum medium (Latin)"
 Content = "<b>golden mean</b><br/><br/>The software engineering consultancy of Reed G. Law"
 
 [[params.socialIcons]]
+name = 'email'
+url = 'mailto:reed@aureummedium.com'
+
+[[params.socialIcons]]
 name = 'github'
 url = 'https://github.com/reedlaw'
 
